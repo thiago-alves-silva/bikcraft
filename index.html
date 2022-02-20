@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Bikcraft</title>
+</head>
+
+<body>
+  <header>
+    <img src="img/bikcraft.svg" alt="Logo Bikcraft" class="logo">
+    <nav class="navegacao">
+      <ul>
+        <li><a href="/">Sobre</a></li>
+        <li><a href="/">Produtos</a></li>
+        <li><a href="/">Lojas</a></li>
+        <li><a href="/">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <article class="grid" aria-label="Sobre a Nimbus Stark">
+      <!-- A tag article é utilizada em regiões que não precisam do restante do site para fazer sentido (autoexplicativas) -->
+      <div class="info">
+        <h1 class="titulo-info">Bicicleta Feita a Mão</h1> <!-- Geralmente a tag article deve conter um título -->
+        <p class="descricao-info">
+          A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios da
+          marca.
+        </p>
+        <a href="/" class="ver-mais">Ver Mais</a>
+      </div>
+      <img src="img/bicicleta.jpg" alt="Bicicleta Nimbus Stark preta" class="foto">
+    </article>
+    <article class="grid" aria-labelledby="vantagens-titulo">
+      <h2 class="vantagens-titulo" id="vantagens-titulo">Vantagens Bikcraft</h2>
+      <ul class="vantagens">
+        <li class="vantagens-item">
+          <img src="img/eletrica.svg" alt=""> <!-- Ícones por recomendação não devem conter um valor para 'alt' -->
+          <span class="titulo-item">Motor Elétrico</span>
+          <p class="descricao-item">Permite você viajar distâncias inimaginaveis com a sua bike.</p>
+        </li>
+        <li class="vantagens-item">
+          <img src="img/velocidade.svg" alt="">
+          <span class="titulo-item">40 km/h</span>
+          <p class="descricao-item">A mais rápida bicicleta elétrica disponível hoje no mercado.</p>
+        </li>
+        <li class="vantagens-item">
+          <img src="img/rastreador.svg" alt="">
+          <span class="titulo-item">Rastreador</span>
+          <p class="descricao-item">Rastreador e sistema anti-furto para garantir o seu sossego.</p>
+        </li>
+      </ul>
+    </article>
+  </main>
+  <footer class="rodape">
+    <p>Bikcraft. Alguns Direitos Reservados.</p>
+  </footer>
+</body>
+
+</html>
