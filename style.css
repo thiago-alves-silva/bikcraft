@@ -225,10 +225,6 @@ header {
     margin: 40px 20px;
     max-width: unset;
   }
-
-  .rodape {
-    margin-top: 10px;
-  }
 }
 
 @media (max-width: 545px) {
